@@ -1,3 +1,4 @@
+import controller.ContactoController;
 import controller.Sets;
 
 public class App {
@@ -7,6 +8,7 @@ public class App {
         runHastTree();
         runTreeSetConComparador();
         runTreeSetConComparadorAlfabetico();
+        ContactoController contactoController = new ContactoController();
     }
     public static void runHastSet() {
         Sets sets = new Sets();
